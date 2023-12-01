@@ -16,7 +16,7 @@ function nameShortener(name){
 }
 
 let heroku = 'https://coffee-trainer.herokuapp.com/api/coredrinks'
-let local = 'http://localhost:8000/api/coredrinks'
+let local = 'https://383kqq-1234.csb.app/api/coredrinks'
 async function apiRequest(){
     
     try{

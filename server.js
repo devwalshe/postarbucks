@@ -1,8 +1,6 @@
-
-
 const express = require('express')
 const app = express()
-const PORT = 8000
+const PORT = 1234
 const CORS = require('cors')
 app.use(express.static('public'))
 app.use('/PartnerHours',express.static(__dirname + '/public/PartnerHours'))
